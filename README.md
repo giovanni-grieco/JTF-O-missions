@@ -1,1 +1,2 @@
-JTF Orange mission file PBOs go in here
+# JTF Orange missions repository
+Put PBOs in this repository.
