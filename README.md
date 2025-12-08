@@ -15,7 +15,7 @@ Check the modpack version in the [Modpack Change Log](https://discord.com/channe
 ## How to name mission files
 If the modpack version number is X then the filemission follows the following format
 ```
-your_mission_file_name_vX.map_name.pbo
+your_mission_file_name_v<X>.map_name.pbo
 ```
 
 For example, if X is 1.2.3, your mission file name should be
