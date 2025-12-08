@@ -18,12 +18,30 @@ If the modpack version number is X then the filemission follows the following fo
 your_mission_file_name_v<X>.map_name.pbo
 ```
 
-For example, if X is 1.2.3, your mission file name should be
+For example, if X is "1.2.3", your mission file name should be
 ```
 cool_op_name_v1.2.3.cool_map_name.pbo
 ```
 
+Sometimes X can have special instances. For example, if we're running an experimental modpack, X could look like "V0.1_experimental". This means that you need to follow the rule as before, just use the whole string.
+```
+cool_op_name_v0.1_experimental.cool_map_name.pbo
+```
+
+## I have multiple versions of a certain mission file... what do I do?
 if you want to version your own file mission... don't just reupload the file as is with the same name, GIT already provides versioning and you can always recover an old version. Feel free to overwrite using the same names.
+
+But if you really need to have multiple mission file in the repo, feel free to append your own version to the name.
+
+The format should be
+```
+cool_op_name_v<X>_<your_own_version_number>.cool_map_name.pbo
+```
+
+If we assume that X is still "1.2.3" and your_own_version_number is "5" then
+```
+cool_op_name_v1.2.3_5.cool_map_name.pbo
+```
 
 ## How to change a mission file after fixing/checking said mission file
 If we have progressed with a major version number of the modpack (for example from V1 to V2) then we need to check all of those missions that have the major version number lower than the one of the modpack (so all those mission file with "_v1.y.z" because 1<2)
