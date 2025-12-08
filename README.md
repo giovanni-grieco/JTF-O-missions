@@ -29,7 +29,9 @@ cool_op_name_v0.1_experimental.cool_map_name.pbo
 ```
 
 ## I have multiple versions of a certain mission file... what do I do?
-if you want to version your own file mission... don't just reupload the file as is with the same name, GIT already provides versioning and you can always recover an old version. Feel free to overwrite using the same names.
+If you want to version your own file mission... don't... 
+
+Just reupload the file as is with the same name, GIT already provides versioning and you can always recover an old version. Feel free to overwrite using the same names.
 
 But if you really need to have multiple mission file in the repo, feel free to append your own version to the name.
 
