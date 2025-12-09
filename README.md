@@ -20,12 +20,12 @@ your_mission_file_name_v<X>.map_name.pbo
 
 For example, if X is "1.2.3", your mission file name should be
 ```
-cool_op_name_v1.2.3.cool_map_name.pbo
+cool_op_name_v1_2_3.cool_map_name.pbo
 ```
 
 Sometimes X can have special instances. For example, if we're running an experimental modpack, X could look like "V0.1_experimental". This means that you need to follow the rule as before, just use the whole string.
 ```
-cool_op_name_v0.1_experimental.cool_map_name.pbo
+cool_op_name_v0_1_experimental.cool_map_name.pbo
 ```
 
 ## I have multiple versions of a certain mission file... what do I do?
@@ -37,12 +37,12 @@ But if you really need to have multiple mission file in the repo, feel free to a
 
 The format should be
 ```
-cool_op_name_v<X>_<your_own_version_number>.cool_map_name.pbo
+cool_op_name_v<X>__<your_own_version_number>.cool_map_name.pbo
 ```
 
 If we assume that X is still "1.2.3" and your_own_version_number is "5" then
 ```
-cool_op_name_v1.2.3_5.cool_map_name.pbo
+cool_op_name_v1_2_3__5.cool_map_name.pbo
 ```
 
 ## How to change a mission file after fixing/checking said mission file
@@ -50,5 +50,5 @@ If we have progressed with a major version number of the modpack (for example fr
 
 After you've made sure that a certain mission file works with the new modpack, simply rename the file to follow the same format
 ```
-old_mission_v1.2.3.cool_map_name.pbo -> old_mission_but_has_been_checked_v2.cool_map_name.pbo
+old_mission_v1_2_3.cool_map_name.pbo -> old_mission_but_has_been_checked_v2.cool_map_name.pbo
 ```
