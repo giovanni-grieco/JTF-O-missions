@@ -5,7 +5,7 @@ Put missions PBOs in this repository.
 
 ## Rationale
 The reason we do this is for mission maintenance and for tracking in which period a certain mission was made in.
-If from one version of the modpack to the next, we only add mods, no biggie. If we remove something then it's a problem because potentially a mission file depended from a mod we removed.
+If from one version of the modpack to the next, we only add mods, no biggie. If we remove something then it's a potential issue, because we might have gotten rid of a mod which a mission file depended on.
 By appending modpack versions to the mission file we know what mission can potentially be broken when we change modpack (and version number).
 
 ## Where is the Modpack Version?
